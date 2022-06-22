@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "Rotation Project Summer 2022"
 output:
   workflowr::wflow_html:
     toc: false
@@ -7,4 +7,4 @@ editor_options:
   chunk_output_type: console
 ---
 
-Describe your project.
+Detecting trans-eQTLs associated with Autisum-related gene networks using trans-PCO
