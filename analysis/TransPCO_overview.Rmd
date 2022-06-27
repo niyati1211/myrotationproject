@@ -21,8 +21,8 @@ Gene modules can be identified using weighted gene network analysis ($R^2$). Kri
 
 ```{r, include=FALSE}
 library(tidyverse)
-allgenes <- read_csv("/Users/niyatijain/Desktop/tmp/myrotationproject/data/allgenes_autism_modules.csv")
-highlygenes <- read_csv("/Users/niyatijain/Desktop/tmp/myrotationproject/data/highly_connected_genes_autism_modules.csv")
+allgenes <- read_csv("data/allgenes_autism_modules.csv")
+highlygenes <- read_csv("data/highly_connected_genes_autism_modules.csv")
 ```
 
 ```{r autism_module_explImage, include = TRUE, echo = TRUE, out.width = "700px",out.height="400px"}
