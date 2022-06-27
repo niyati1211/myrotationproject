@@ -1,0 +1,161 @@
+﻿gene id,cluster,symbol,level,name
+774,C1,CACNA1B,-,"calcium channel, voltage-dependent, N type, alpha 1B subunit"
+10858,C1,CYP46A1,-,"cytochrome P450, family 46, subfamily A, polypeptide 1"
+1394,C1,CRHR1,-,corticotropin releasing hormone receptor 1
+4654,C1,MYOD1,-,myogenic differentiation 1
+53822,C1,FXYD7,-,FXYD domain containing ion transport regulator 7
+56341,C1,PRMT8,-,protein arginine methyltransferase 8
+51764,C1,GNG13,-,"guanine nucleotide binding protein (G protein), gamma 13"
+23359,C1,FAM189A1,-,"family with sequence similarity 189, member A1"
+5818,C1,PVRL1,-,poliovirus receptor-related 1 (herpesvirus entry mediator C)
+1271,C1,CNTFR,-,ciliary neurotrophic factor receptor
+5153,C1,PDE1B,-,"phosphodiesterase 1B, calmodulin-dependent"
+10893,C1,MMP24,-,matrix metallopeptidase 24 (membrane-inserted)
+3350,C1,HTR1A,E3,"5-hydroxytryptamine (serotonin) receptor 1A, G protein-coupled"
+6853,C1,SYN1,E4,synapsin I
+2912,C1,GRM2,-,"glutamate receptor, metabotropic 2"
+3785,C1,KCNQ2,-,"potassium voltage-gated channel, KQT-like subfamily, member 2"
+7480,C1,WNT10B,-,"wingless-type MMTV integration site family, member 10B"
+8927,C1,BSN,-,bassoon presynaptic cytomatrix protein
+1005,C1,CDH7,-,"cadherin 7, type 2"
+3786,C1,KCNQ3,-,"potassium voltage-gated channel, KQT-like subfamily, member 3"
+9890,C2,LPPR4,-,-
+4325,C2,MMP16,-,matrix metallopeptidase 16 (membrane-inserted)
+1501,C2,CTNND2,-,"catenin (cadherin-associated protein), delta 2"
+8618,C2,CADPS,-,Ca++-dependent secretion activator
+4760,C2,NEUROD1,-,neuronal differentiation 1
+41,C2,ASIC1,-,acid-sensing (proton-gated) ion channel 1
+5178,C2,PEG3,-,paternally expressed 3
+4081,C2,MAB21L1,-,mab-21-like 1 (C. elegans)
+1734,C2,DIO2,-,"deiodinase, iodothyronine, type II"
+5649,C2,RELN,E2,reelin
+80031,C2,SEMA6D,-,"sema domain, transmembrane domain (TM), and cytoplasmic domain, (semaphorin) 6D"
+22941,C2,SHANK2,E1,SH3 and multiple ankyrin repeat domains 2
+577,C2,BAI3,-,brain-specific angiogenesis inhibitor 3
+5172,C2,SLC26A4,-,"solute carrier family 26 (anion exchanger), member 4"
+2891,C2,GRIA2,E4,"glutamate receptor, ionotropic, AMPA 2"
+26002,C2,MOXD1,-,"monooxygenase, DBH-like 1"
+4884,C2,NPTX1,-,neuronal pentraxin I
+287,C2,ANK2,-,"ankyrin 2, neuronal"
+91851,C2,CHRDL1,-,chordin-like 1
+2823,C2,GPM6A,-,glycoprotein M6A
+54827,C3,NXPE4,-,"neurexophilin and PC-esterase domain family, member 4"
+3062,C3,HCRTR2,E3,hypocretin (orexin) receptor 2
+2561,C3,GABRB2,-,"gamma-aminobutyric acid (GABA) A receptor, beta 2"
+54363,C3,HAO1,-,hydroxyacid oxidase (glycolate oxidase) 1
+4994,C3,OR3A1,-,"olfactory receptor, family 3, subfamily A, member 1"
+26280,C3,IL1RAPL2,E4,interleukin 1 receptor accessory protein-like 2
+2741,C3,GLRA1,-,"glycine receptor, alpha 1"
+10738,C3,RFPL3,-,ret finger protein-like 3
+50514,C3,1-Dec,-,deleted in esophageal cancer 1
+57242,C3,KIAA0509,-,-
+80329,C3,ULBP1,-,UL16 binding protein 1
+3354,C3,HTR1E,E3,"5-hydroxytryptamine (serotonin) receptor 1E, G protein-coupled"
+58503,C3,PROL1,-,"proline rich, lacrimal 1"
+6473,C3,SHOX,-,short stature homeobox
+5617,C3,PRL,E3,prolactin
+11136,C3,SLC7A9,-,"solute carrier family 7 (amino acid transporter light chain, bo,+ system), member 9"
+8174,C3,MADCAM1,-,mucosal vascular addressin cell adhesion molecule 1
+7350,C3,UCP1,-,"uncoupling protein 1 (mitochondrial, proton carrier)"
+10816,C3,SPINT3,-,"serine peptidase inhibitor, Kunitz type, 3"
+6336,C3,SCN10A,-,"sodium channel, voltage-gated, type X, alpha subunit"
+80205,C4,CHD9,-,chromodomain helicase DNA binding protein 9
+7750,C4,ZMYM2,-,"zinc finger, MYM-type 2"
+51111,C4,SUV420H1,E4,suppressor of variegation 4-20 homolog 1 (Drosophila)
+29994,C4,BAZ2B,-,"bromodomain adjacent to zinc finger domain, 2B"
+9202,C4,ZMYM4,-,"zinc finger, MYM-type 4"
+220594,C4,USP32P2,-,ubiquitin specific peptidase 32 pseudogene 2
+23036,C4,ZNF292,-,zinc finger protein 292
+23469,C4,PHF3,-,PHD finger protein 3
+23506,C4,GLTSCR1L,-,GLTSCR1-like
+25836,C4,NIPBL,-,Nipped-B homolog (Drosophila)
+54665,C4,RSBN1,-,round spermatid basic protein 1
+5980,C4,REV3L,-,"REV3-like, polymerase (DNA directed), zeta, catalytic subunit"
+9877,C4,ZC3H11A,-,zinc finger CCCH-type containing 11A
+23369,C4,PUM2,-,pumilio RNA-binding family member 2
+10513,C4,APPBP2,-,amyloid beta precursor protein (cytoplasmic tail) binding protein 2
+22878,C4,TRAPPC8,-,trafficking protein particle complex 8
+6938,C4,TCF12,-,transcription factor 12
+10735,C4,STAG2,-,stromal antigen 2
+23253,C4,ANKRD12,-,ankyrin repeat domain 12
+5926,C4,ARID4A,-,AT rich interactive domain 4A (RBP1-like)
+3301,C5,DNAJA1,-,"DnaJ (Hsp40) homolog, subfamily A, member 1"
+9184,C5,BUB3,-,BUB3 mitotic checkpoint protein
+10728,C5,PTGES3,-,prostaglandin E synthase 3 (cytosolic)
+1977,C5,EIF4E,E3,eukaryotic translation initiation factor 4E
+10492,C5,SYNCRIP,-,"synaptotagmin binding, cytoplasmic RNA interacting protein"
+908,C5,CCT6A,-,"chaperonin containing TCP1, subunit 6A (zeta 1)"
+3183,C5,HNRNPC,-,heterogeneous nuclear ribonucleoprotein C (C1/C2)
+10971,C5,YWHAQ,-,"tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, theta"
+3838,C5,KPNA2,-,"karyopherin alpha 2 (RAG cohort 1, importin alpha 1)"
+3251,C5,HPRT1,-,hypoxanthine phosphoribosyltransferase 1
+7334,C5,UBE2N,-,ubiquitin-conjugating enzyme E2N
+55854,C5,ZC3H15,-,zinc finger CCCH-type containing 15
+1964,C5,EIF1AX,-,"eukaryotic translation initiation factor 1A, X-linked"
+3320,C5,HSP90AA1,-,"heat shock protein 90kDa alpha (cytosolic), class A member 1"
+5111,C5,PCNA,-,proliferating cell nuclear antigen
+10576,C5,CCT2,-,"chaperonin containing TCP1, subunit 2 (beta)"
+8520,C5,HAT1,-,histone acetyltransferase 1
+7411,C5,VBP1,-,von Hippel-Lindau binding protein 1
+9689,C5,BZW1,-,basic leucine zipper and W2 domains 1
+262,C5,AMD1,-,adenosylmethionine decarboxylase 1
+5315,C67,PKM,-,"pyruvate kinase, muscle"
+55611,C67,OTUB1,-,"OTU domain, ubiquitin aldehyde binding 1"
+7317,C67,UBA1,-,ubiquitin-like modifier activating enzyme 1
+5447,C67,POR,E3,P450 (cytochrome) oxidoreductase
+8079,C67,MLF2,-,myeloid leukemia factor 2
+537,C67,ATP6AP1,-,"ATPase, H+ transporting, lysosomal accessory protein 1"
+23625,C67,FAM89B,-,"family with sequence similarity 89, member B"
+5518,C67,PPP2R1A,-,"protein phosphatase 2, regulatory subunit A, alpha"
+826,C67,CAPNS1,-,"calpain, small subunit 1"
+2783,C67,GNB2,-,"guanine nucleotide binding protein (G protein), beta polypeptide 2"
+5878,C67,RAB5C,-,"RAB5C, member RAS oncogene family"
+10155,C67,TRIM28,-,tripartite motif containing 28
+527,C67,ATP6V0C,E3,"ATPase, H+ transporting, lysosomal 16kDa, V0 subunit c"
+997,C67,CDC34,-,cell division cycle 34
+8775,C67,NAPA,-,"N-ethylmaleimide-sensitive factor attachment protein, alpha"
+1209,C67,CLPTM1,-,cleft lip and palate associated transmembrane protein 1
+6576,C67,SLC25A1,-,"solute carrier family 25 (mitochondrial carrier; citrate transporter), member 1"
+7917,C67,BAG6,-,BCL2-associated athanogene 6
+22913,C67,RALY,-,RALY heterogeneous nuclear ribonucleoprotein
+808,C67,CALM3,-,"calmodulin 3 (phosphorylase kinase, delta)"
+22998,C8,LIMCH1,-,LIM and calponin homology domains 1
+9891,C8,NUAK1,-,"NUAK family, SNF1-like kinase, 1"
+4131,C8,MAP1B,-,microtubule-associated protein 1B
+9353,C8,SLIT2,-,slit homolog 2 (Drosophila)
+7436,C8,VLDLR,E3,very low density lipoprotein receptor
+10810,C8,WASF3,-,"WAS protein family, member 3"
+10486,C8,CAP2,-,"CAP, adenylate cyclase-associated protein, 2 (yeast)"
+23321,C8,TRIM2,-,tripartite motif containing 2
+29970,C8,SCHIP1,-,schwannomin interacting protein 1
+90627,C8,STARD13,-,StAR-related lipid transfer (START) domain containing 13
+23362,C8,PSD3,E4,pleckstrin and Sec7 domain containing 3
+5087,C8,PBX1,-,pre-B-cell leukemia homeobox 1
+1287,C8,COL4A5,-,"collagen, type IV, alpha 5"
+6695,C8,SPOCK1,-,"sparc/osteonectin, cwcv and kazal-like domains proteoglycan (testican) 1"
+23705,C8,CADM1,E4,cell adhesion molecule 1
+10160,C8,FARP1,-,"FERM, RhoGEF (ARHGEF) and pleckstrin domain protein 1 (chondrocyte-derived)"
+4675,C8,NAP1L3,-,nucleosome assembly protein 1-like 3
+8777,C8,MPDZ,-,multiple PDZ domain protein
+23266,C8,LPHN2,-,latrophilin 2
+89927,C8,C16orf45,-,chromosome 16 open reading frame 45
+8553,C9,BHLHE40,-,"basic helix-loop-helix family, member e40"
+1843,C9,DUSP1,-,dual specificity phosphatase 1
+1847,C9,DUSP5,-,dual specificity phosphatase 5
+2114,C9,ETS2,-,v-ets avian erythroblastosis virus E26 oncogene homolog 2
+3725,C9,JUN,-,jun proto-oncogene
+1316,C9,KLF6,-,Kruppel-like factor 6
+1848,C9,DUSP6,-,dual specificity phosphatase 6
+2353,C9,FOS,-,FBJ murine osteosarcoma viral oncogene homolog
+4170,C9,MCL1,-,myeloid cell leukemia sequence 1 (BCL2-related)
+4929,C9,NR4A2,E3,"nuclear receptor subfamily 4, group A, member 2"
+10769,C9,PLK2,-,polo-like kinase 2
+4092,C9,SMAD7,-,SMAD family member 7
+8660,C9,IRS2,-,insulin receptor substrate 2
+694,C9,BTG1,-,"B-cell translocation gene 1, anti-proliferative"
+1960,C9,EGR3,-,early growth response 3
+81565,C9,NDEL1,E3,nudE neurodevelopment protein 1-like 1
+3398,C9,ID2,-,"inhibitor of DNA binding 2, dominant negative helix-loop-helix protein"
+10253,C9,SPRY2,-,sprouty homolog 2 (Drosophila)
+9929,C9,JOSD1,-,Josephin domain containing 1
+5142,C9,PDE4B,-,"phosphodiesterase 4B, cAMP-specific"
