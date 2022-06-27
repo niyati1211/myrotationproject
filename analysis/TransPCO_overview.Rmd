@@ -1,0 +1,49 @@
+---
+title: "Trans_PCO"
+author: "Niyati Jain"
+date: '2022-06-27'
+output: html_document
+---
+
+**Overview of Trans-PCO**
+
+This approach identifies SNPs that are associated with the expression of a group of genes (e.g., genes with correlated expression, genes identified in the same biological pathway). The method is identifies SNPs that have a trans-association with gene module. Here, trans-association is defined as a SNP affecting expression of genes on another chromosome. 
+
+PCA-based omnibus (PCO) is a multivariate test to study the association between SNP and gene module. This approach incoporates multiple PCs to improve the power to detect significant associations. Even though, the first PC captures the largest variance in the data, it can have less power to detect significant genetic association signals. 
+
+Specifically, the best test statisitc (i.e., yielding the lowest p value) from six tests (PCMinP, PCFisher, PCLC, WI, Wald and VC) is used as the test statistic for PCO. These approaches combine the PCs in different ways (lineear or non linear ways). This accounts for different correlation structures between SNPs and gene module expression. 
+
+Note three of the tests combine PCs by weighting against the inverse of eignevalues. PCs with very small eigenvalues would contribute more greatly to the association test, leading to perhaps inflated p-values. Therefore, only PCs with at least eigenvalue of 0.1 was selected as a threshold after running test simulations. 
+
+**Identifying Gene Modules**
+
+Gene modules can be identified using weighted gene network analysis ($R^2$). Krishnan et al., used another approach (shared k-nearest-neighbors and the Louvanian community finding algorithm) to identify autism-associated functional modules. 
+
+```{r, include=FALSE}
+library(tidyverse)
+allgenes <- read_csv("/Users/niyatijain/Desktop/tmp/myrotationproject/data/allgenes_autism_modules.csv")
+highlygenes <- read_csv("/Users/niyatijain/Desktop/tmp/myrotationproject/data/highly_connected_genes_autism_modules.csv")
+```
+
+```{r autism_module_explImage, include = TRUE, echo = TRUE, out.width = "700px",out.height="400px"}
+library(knitr)
+knitr::include_graphics("assets/autism_module_expl.png", error = FALSE)
+```
+
+1. All Genes: How many clusters? How many genes per cluster? 
+```{r}
+
+allgenes %>% group_by(cluster) %>% tally()
+```
+
+2. Highly connected genes: How many clusters? How many genes per cluster? 
+```{r}
+highlygenes %>% group_by(cluster) %>% tally()
+```
+
+**Workflow of running Trans-PCO**
+
+1. Identify gene modules (e.g., WGNA)
+2. Prepare Z-score matrix (rows: SNPs and columns: genes in a module)
+
+
