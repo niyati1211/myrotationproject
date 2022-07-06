@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Niyati Jain" />
 
+<meta name="date" content="2022-06-28" />
 
-<title>Home</title>
+<title>Autism (known genes and biological pathways)</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +31,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -234,6 +239,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -241,6 +309,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -284,7 +362,10 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Home</h1>
+<h1 class="title toc-ignore">Autism (known genes and biological
+pathways)</h1>
+<h4 class="author">Niyati Jain</h4>
+<h4 class="date">2022-06-28</h4>
 
 </div>
 
@@ -418,10 +499,11 @@ have uncommitted changes.
 
 <p>
 These are the previous versions of the repository in which changes were
-made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML
-(<code>docs/index.html</code>) files. If you’ve configured a remote Git
-repository (see <code>?wflow_git_remote</code>), click on the hyperlinks
-in the table below to view the files as they were in that past version.
+made to the R Markdown (<code>analysis/Autism_overview.Rmd</code>) and
+HTML (<code>docs/Autism_overview.html</code>) files. If you’ve
+configured a remote Git repository (see <code>?wflow_git_remote</code>),
+click on the hyperlinks in the table below to view the files as they
+were in that past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -450,7 +532,7 @@ Message
 Rmd
 </td>
 <td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/51391f59d8a08813e6c823bb9407ab527922f184/analysis/index.Rmd" target="_blank">51391f5</a>
+<a href="https://github.com/niyati1211/myrotationproject/blob/51391f59d8a08813e6c823bb9407ab527922f184/analysis/Autism_overview.Rmd" target="_blank">51391f5</a>
 </td>
 <td>
 niyati1211
@@ -463,176 +545,6 @@ wflow_publish(c("analysis/Autism_overview.Rmd",
 "analysis/TransPCO_usage.Rmd",
 </td>
 </tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/5f65d0f6d8071a4ad8462fdb8a2718997bf3ad3c/docs/index.html" target="_blank">5f65d0f</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/216727e3a962ffe4d71aa47c56d1b020d1658458/docs/index.html" target="_blank">216727e</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/163c34ef8d016a2823c86674efdf5bb8dc2c172b/docs/index.html" target="_blank">163c34e</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/f078c5d0511b2dd2533a14fc61b0d17d2a0d2a11/docs/index.html" target="_blank">f078c5d</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/b4bce1f1f8346c31048e7d65c5de4712b24dfe48/docs/index.html" target="_blank">b4bce1f</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/2358c1ad1c2c3b1733f3744daf8898e9ede21520/analysis/index.Rmd" target="_blank">2358c1a</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Week 1
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/1a98516e3d891dcb2ae552d1c2c39eb3ecc40bb7/docs/index.html" target="_blank">1a98516</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-22
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/0e4e5512dd1e94892b5ce25920728a9ef48c26a2/analysis/index.Rmd" target="_blank">0e4e551</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-22
-</td>
-<td>
-wflow_publish(c("index.Rmd", "about.Rmd"))
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/31d702b0056c26b2adfe92a566ea313d836bd0e3/docs/index.html" target="_blank">31d702b</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-21
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/2aaedeec80703055265c59975828a7e2fca66099/analysis/index.Rmd" target="_blank">2aaedee</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-21
-</td>
-<td>
-Start workflowr project.
-</td>
-</tr>
 </tbody>
 </table>
 </div>
@@ -640,14 +552,73 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<p>Welcome to my research website. I’m a first year PhD student in the
-Genetics, Genomics, and Systems Biology program at the University of
-Chicago.</p>
-<p>Click on this <a href="TransPCO_overview.html">link</a> to see my
-progress from Week 1. Click on this <a
-href="Autism_overview.html">link</a> to see my progress from Week 2.
-Click on this <a href="TransPCO_usage.html">link</a> to see my progress
-from Week 3.</p>
+<p><strong>Autism</strong></p>
+<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3397271/"
+class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3397271/</a></p>
+<p><a href="https://www.sfari.org/resource/simons-simplex-collection"
+class="uri">https://www.sfari.org/resource/simons-simplex-collection</a></p>
+<ul>
+<li>Neurodevelopment abnormalities</li>
+<li>Different brain regions such as the frontal cortex, cerebellum,
+hippocampus, and the amygdaloid nucleus and cerebello-thalamo-cortical
+pathway implicated in autism pathogenesis</li>
+<li>Simons foundation autism research initiative dataset could be useful
+various types of data collected -&gt; WGS, WES, gene expression,
+DNA-methylation data, etc.</li>
+</ul>
+<p><strong>SNP –&gt; gene module –&gt; Autism</strong></p>
+<p>Clusters identified in Krishnan et al, 2016:</p>
+<p>C1. Synaptic transmission and neuronal function.</p>
+<p><a href="https://www.nature.com/articles/nature13772"
+class="uri">https://www.nature.com/articles/nature13772</a></p>
+<p>Chromatin remodeling, transcription and splicing, and synaptic
+function affected by risk variants identified in</p>
+<p>C2. Canonical Wnt signaling pathway</p>
+<p>C3. Perception</p>
+<p><a
+href="https://journals.lww.com/hrpjournal/Fulltext/2014/03000/Sensory_Symptoms_in_Autism_Spectrum_Disorders.6.aspx?casa_token=9yY8v8d6ESIAAAAA:j6tSLv4iQzwRQC9JCplVaV_U5ks8cotdK-o8_pFKLQ2RLeePBV9Qa36DgwPoe0cmoaCffJfJi8U1-NqwK2EZSNk"
+class="uri">https://journals.lww.com/hrpjournal/Fulltext/2014/03000/Sensory_Symptoms_in_Autism_Spectrum_Disorders.6.aspx?casa_token=9yY8v8d6ESIAAAAA:j6tSLv4iQzwRQC9JCplVaV_U5ks8cotdK-o8_pFKLQ2RLeePBV9Qa36DgwPoe0cmoaCffJfJi8U1-NqwK2EZSNk</a></p>
+<p>Abnormalities in responses to sensory stimuli are highly prevalent in
+individuals with ASD.</p>
+<p>C4. Histone modification and chromatin remodeling</p>
+<p>C5. Cell cycle regulation</p>
+<p>C6/7. Gamma interferon pathway</p>
+<p>C8. IGF signaling/Rho GTPase</p>
+<p>C9. Circadian rhythm</p>
+<p>Note: since C6 and C7 share a number of strong links across the
+clusters (i.e. interconnecting genes), they were merged before
+calculating functional enrichment.</p>
+<p><strong>Transcription factors potentially involved in autism-related
+pathways</strong></p>
+<p>MAZ:</p>
+<p><a href="https://www.nature.com/articles/nn.4353#Sec1"
+class="uri">https://www.nature.com/articles/nn.4353#Sec1</a></p>
+<p>“On the genome-scale, computationally predicted targets of MAZ (genes
+with MAZ’s DNA-binding motif in their upstream sequences; Online
+Methods) are statistically over-represented in our ASD-associated gene
+predictions (P &lt; 2.2 × 10−16) and are involved in the regulation of
+neuron differentiation and axonogenesis. MAZ and its predicted targets
+also show specific spatiotemporal expression in the early midfetal stage
+of development in the primary motor cortex (Fig. 3), a stage
+demonstrated to be relevant to autism”</p>
+<p><a href="https://pubmed.ncbi.nlm.nih.gov/12425938/"
+class="uri">https://pubmed.ncbi.nlm.nih.gov/12425938/</a></p>
+<p>Effect of the ubiquitous transcription factors, SP1 and MAZ, on NMDA
+receptor subunit type 1 (NR1) expression during neuronal
+differentiation</p>
+<p>RFX:</p>
+<p><a href="https://www.nature.com/articles/s41436-021-01114-z"
+class="uri">https://www.nature.com/articles/s41436-021-01114-z</a></p>
+<p>“RFX family transcription factors bind to a characteristic consensus
+motif called an X-box. We found enrichment of X-box motifs (q value
+&lt;0.05) in human ESC-neuron specific enhancers for ASD risk genes
+(Table S5A). As a group, RFX3 and RFX4 motifs were particularly enriched
+(q value &lt;0.005), while the RFX7 motif was not (q value 0.48).
+Enrichment of RFX motifs in promoter regions of ASD risk genes and DEGs
+did not emerge (data not shown). Across cell lines, there was a positive
+correlation between enrichment in ASD genes and RFX expression levels in
+that cell type (Figure S6, Table S9), indicating that higher RFX
+expression levels may be required to engage ASD relevant targets.”</p>
 
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
@@ -665,6 +636,8 @@ footer is added to webpages before the MathJax javascript. -->
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -697,6 +670,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
