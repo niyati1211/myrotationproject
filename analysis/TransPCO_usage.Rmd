@@ -1,0 +1,17 @@
+---
+title: "TRANS-PCO"
+author: "Niyati Jain"
+date: '2022-07-06'
+output: html_document
+---
+
+Installation:
+
+1. Snakemake (https://snakemake.readthedocs.io/en/stable/getting_started/installation.html)
+2. TensorQTL (https://lab-notes.hakyimlab.org/post/2020/11/11/installing-tensorqtl-module/#steps-for-installation)
+
+directory for conda environment: /home/niyatij/.conda/envs
+
+Running Snakemake:
+
+Make sure to load R before running Snakemake.sh 

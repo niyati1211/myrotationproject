@@ -1,0 +1,66 @@
+---
+title: "Autism (known genes and biological pathways)"
+author: "Niyati Jain"
+date: '2022-06-28'
+output: html_document
+---
+
+**Autism**
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3397271/
+
+https://www.sfari.org/resource/simons-simplex-collection
+
+- Neurodevelopment abnormalities
+- Different brain regions such as the frontal cortex, cerebellum, hippocampus, and the amygdaloid nucleus and cerebello-thalamo-cortical pathway implicated in autism pathogenesis 
+- Simons foundation autism research initiative dataset could be useful various types of data collected -> WGS, WES, gene expression, DNA-methylation data, etc.
+
+**SNP --> gene module --> Autism**
+
+Clusters identified in Krishnan et al, 2016:
+
+C1. Synaptic transmission and neuronal function.
+
+https://www.nature.com/articles/nature13772
+
+Chromatin remodeling, transcription and splicing, and synaptic function affected by risk variants identified in
+
+C2. Canonical Wnt signaling pathway 
+
+
+C3. Perception 
+
+https://journals.lww.com/hrpjournal/Fulltext/2014/03000/Sensory_Symptoms_in_Autism_Spectrum_Disorders.6.aspx?casa_token=9yY8v8d6ESIAAAAA:j6tSLv4iQzwRQC9JCplVaV_U5ks8cotdK-o8_pFKLQ2RLeePBV9Qa36DgwPoe0cmoaCffJfJi8U1-NqwK2EZSNk
+
+Abnormalities in responses to sensory stimuli are highly prevalent in individuals with ASD.
+
+C4. Histone modification and chromatin remodeling
+
+C5. Cell cycle regulation 
+
+C6/7. Gamma interferon pathway 
+
+C8. IGF signaling/Rho GTPase
+
+C9. Circadian rhythm 
+
+Note: since C6 and C7 share a number of strong links across the clusters (i.e. interconnecting genes), they were merged before calculating functional enrichment. 
+
+**Transcription factors potentially involved in autism-related pathways**
+
+MAZ:
+
+https://www.nature.com/articles/nn.4353#Sec1
+
+"On the genome-scale, computationally predicted targets of MAZ (genes with MAZ's DNA-binding motif in their upstream sequences; Online Methods) are statistically over-represented in our ASD-associated gene predictions (P < 2.2 × 10−16) and are involved in the regulation of neuron differentiation and axonogenesis. MAZ and its predicted targets also show specific spatiotemporal expression in the early midfetal stage of development in the primary motor cortex (Fig. 3), a stage demonstrated to be relevant to autism" 
+
+https://pubmed.ncbi.nlm.nih.gov/12425938/
+
+Effect of the ubiquitous transcription factors, SP1 and MAZ, on NMDA receptor subunit type 1 (NR1) expression during neuronal differentiation
+
+RFX: 
+
+https://www.nature.com/articles/s41436-021-01114-z
+
+"RFX family transcription factors bind to a characteristic consensus motif called an X-box. We found enrichment of X-box motifs (q value <0.05) in human ESC-neuron specific enhancers for ASD risk genes (Table S5A). As a group, RFX3 and RFX4 motifs were particularly enriched (q value <0.005), while the RFX7 motif was not (q value 0.48). Enrichment of RFX motifs in promoter regions of ASD risk genes and DEGs did not emerge (data not shown). Across cell lines, there was a positive correlation between enrichment in ASD genes and RFX expression levels in that cell type (Figure S6, Table S9), indicating that higher RFX expression levels may be required to engage ASD relevant targets."
+
