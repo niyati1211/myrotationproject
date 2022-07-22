@@ -7,11 +7,42 @@ output: html_document
 
 Installation:
 
-1. Snakemake (https://snakemake.readthedocs.io/en/stable/getting_started/installation.html)
-2. TensorQTL (https://lab-notes.hakyimlab.org/post/2020/11/11/installing-tensorqtl-module/#steps-for-installation)
-
 Directory for conda environment: /home/niyatij/.conda/envs
 
-Running Snakemake:
+**1. Snakemake (https://snakemake.readthedocs.io/en/stable/getting_started/installation.html)**
 
-Make sure to load R before running Snakemake.sh 
+**2. TensorQTL (https://lab-notes.hakyimlab.org/post/2020/11/11/installing-tensorqtl-module/#steps-for-installation)**
+
+Note: only change is conda install python==3.7.0 and potentially install R
+
+**3. prep_bed script**
+
+require loading of RCC R 
+
+**4. z.sh**
+
+- unload RCC R - tensorqtl uses the R version installed in the conda environment 
+
+- Error message: ValueError: The BED file must define the TSS/cis-window center, with start+1 == end.
+
+    Reformat the end column of expression bedfile to follow start+1 == end.
+
+- Make changes to /home/niyatij/.conda/envs/tmp/etc/conda/activate.d/ and deactivate.d files
+
+    Described here: https://gitlab.univ-nantes.fr/bird_pipeline_registry/srp-pipeline/-/blob/b5c1ac5e4f2449605701040484b0905028a74767/README.md
+    
+    eval oldval ="\${dollarSign*{from}$thing:-}" - line 67, and line 108 andd 109 just add :-
+
+- Script should have source activate and conda deactivate
+
+**5. p.R**
+
+- Make sure that expression, gene meta and coexpfiles are all the same size i.e. same number of genes 
+
+
+**Questions**
+
+- How to implement the load RCC R, unload RCC R, and reload RCC R after tensorqtl in the scripts?
+
+- How to run the pipeline for all modules and all chromosomes?
+
