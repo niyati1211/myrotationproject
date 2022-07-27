@@ -9,9 +9,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="Niyati Jain" />
 
+<meta name="date" content="2022-07-27" />
 
-<title>Home</title>
+<title>UKB GWAS Analysis</title>
 
 <script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +31,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -234,6 +239,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -241,6 +309,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -328,7 +406,9 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Home</h1>
+<h1 class="title toc-ignore">UKB GWAS Analysis</h1>
+<h4 class="author">Niyati Jain</h4>
+<h4 class="date">2022-07-27</h4>
 
 </div>
 
@@ -464,10 +544,11 @@ have uncommitted changes.
 
 <p>
 These are the previous versions of the repository in which changes were
-made to the R Markdown (<code>analysis/index.Rmd</code>) and HTML
-(<code>docs/index.html</code>) files. If you’ve configured a remote Git
-repository (see <code>?wflow_git_remote</code>), click on the hyperlinks
-in the table below to view the files as they were in that past version.
+made to the R Markdown (<code>analysis/UKB_GWAS.Rmd</code>) and HTML
+(<code>docs/UKB_GWAS.html</code>) files. If you’ve configured a remote
+Git repository (see <code>?wflow_git_remote</code>), click on the
+hyperlinks in the table below to view the files as they were in that
+past version.
 </p>
 <div class="table-responsive">
 <table class="table table-condensed table-hover">
@@ -493,276 +574,19 @@ Message
 <tbody>
 <tr>
 <td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/42045bf5b3527959b27f72e82c518c461f0f94b6/docs/index.html" target="_blank">42045bf</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-07-08
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
 Rmd
 </td>
 <td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/ab8de37a723a4c2dd09128221fe10fa7ae954506/analysis/index.Rmd" target="_blank">ab8de37</a>
+<a href="https://github.com/niyati1211/myrotationproject/blob/15b13a94a320c7d172f6e2de375dd8b9fd41b669/analysis/UKB_GWAS.Rmd" target="_blank">15b13a9</a>
 </td>
 <td>
 niyati1211
 </td>
 <td>
-2022-07-08
+2022-07-27
 </td>
 <td>
-wflow_publish(c("analysis/_site.yml", "analysis/Project.Rmd",
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/6f5e0cfa1f5f86a4d8bae129b1644bb9bd098702/docs/index.html" target="_blank">6f5e0cf</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-07-06
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/faa74c9a208743cc1db61429dadff5aefcbe0bb8/analysis/index.Rmd" target="_blank">faa74c9</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-07-06
-</td>
-<td>
-wflow_publish(c("analysis/Autism_overview.Rmd",
-"analysis/TransPCO_usage.Rmd",
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/5f073efe1c35221170adfab98e4a728e9fd1172c/docs/index.html" target="_blank">5f073ef</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-07-06
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/51391f59d8a08813e6c823bb9407ab527922f184/analysis/index.Rmd" target="_blank">51391f5</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-07-06
-</td>
-<td>
-wflow_publish(c("analysis/Autism_overview.Rmd",
-"analysis/TransPCO_usage.Rmd",
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/5f65d0f6d8071a4ad8462fdb8a2718997bf3ad3c/docs/index.html" target="_blank">5f65d0f</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/216727e3a962ffe4d71aa47c56d1b020d1658458/docs/index.html" target="_blank">216727e</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/163c34ef8d016a2823c86674efdf5bb8dc2c172b/docs/index.html" target="_blank">163c34e</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/f078c5d0511b2dd2533a14fc61b0d17d2a0d2a11/docs/index.html" target="_blank">f078c5d</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/b4bce1f1f8346c31048e7d65c5de4712b24dfe48/docs/index.html" target="_blank">b4bce1f</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/2358c1ad1c2c3b1733f3744daf8898e9ede21520/analysis/index.Rmd" target="_blank">2358c1a</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-27
-</td>
-<td>
-Week 1
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/1a98516e3d891dcb2ae552d1c2c39eb3ecc40bb7/docs/index.html" target="_blank">1a98516</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-22
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/0e4e5512dd1e94892b5ce25920728a9ef48c26a2/analysis/index.Rmd" target="_blank">0e4e551</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-22
-</td>
-<td>
-wflow_publish(c("index.Rmd", "about.Rmd"))
-</td>
-</tr>
-<tr>
-<td>
-html
-</td>
-<td>
-<a href="https://rawcdn.githack.com/niyati1211/myrotationproject/31d702b0056c26b2adfe92a566ea313d836bd0e3/docs/index.html" target="_blank">31d702b</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-21
-</td>
-<td>
-Build site.
-</td>
-</tr>
-<tr>
-<td>
-Rmd
-</td>
-<td>
-<a href="https://github.com/niyati1211/myrotationproject/blob/2aaedeec80703055265c59975828a7e2fca66099/analysis/index.Rmd" target="_blank">2aaedee</a>
-</td>
-<td>
-niyati1211
-</td>
-<td>
-2022-06-21
-</td>
-<td>
-Start workflowr project.
+wflow_publish(c("BP_project.Rmd", "UKB_usage.Rmd", "UKB_GWAS.Rmd",
 </td>
 </tr>
 </tbody>
@@ -772,9 +596,45 @@ Start workflowr project.
 </div>
 </div>
 </div>
-<p>Welcome to my research website. I’m a first year PhD student in the
-Genetics, Genomics, and Systems Biology program at the University of
-Chicago.</p>
+<p>Note: this can be done command line as well using the installed dx
+toolkit</p>
+<ol style="list-style-type: decimal">
+<li><p>Build Cohort</p>
+<ul>
+<li>File designated as dataset (app*)</li>
+<li>DNANexus Cohort Browser - Add filter (based on variable of interest)
+- Add columns for covariates (sex, self reported ancestry) - Save
+ccohort</li>
+<li>Jupyter Notebook (SPARK)</li>
+</ul></li>
+<li><p>Phenotype input file QC</p>
+<ul>
+<li>Jupyter Notebook (SPARK)</li>
+</ul></li>
+<li><p>Genetic data QC</p>
+<ul>
+<li>Bulk/Exome/Pop level OQFE variants PLINK</li>
+<li>Merge chromosome files (C1-C22, exclude sex chromosomes?)</li>
+<li>Swiss Army Knife app to access PLINK (maf, HWE, etc.)</li>
+</ul></li>
+<li><p>GWAS</p>
+<ul>
+<li>Swiss Army Knife app to access REGENIE
+<ul>
+<li>SNPs that passed QC and phenotype file (same as covariates file) as
+inputs</li>
+<li>Specify pheno column and covar column (sex, ancestral PCs)</li>
+</ul></li>
+</ul></li>
+<li><p>Visualize results</p>
+<ul>
+<li>LocusZoom app
+<ul>
+<li>Manhattan plots, zoom into regions to see overlapping genes,
+QQPlot</li>
+</ul></li>
+</ul></li>
+</ol>
 
 
 <!-- Adjust MathJax settings so that all math formulae are shown using
@@ -792,6 +652,8 @@ footer is added to webpages before the MathJax javascript. -->
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -824,6 +686,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
