@@ -20,7 +20,11 @@ output: html_document
 **4. Useful Links**
 
 https://dnanexus.gitbook.io/uk-biobank-rap/science-corner/gwas-ex?q=gwas
+
 https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/using-spark-to-analyze-tabular-data#notebook-starting-code
+
 https://www.youtube.com/watch?v=YIPdhf3qbQA&t=2875s&ab_channel=DNAnexus
+
 https://www.youtube.com/watch?v=762PVlyZJ-U&ab_channel=DNAnexus
+
 https://www.youtube.com/watch?v=_WKy5YHnPns&ab_channel=DNAnexus
