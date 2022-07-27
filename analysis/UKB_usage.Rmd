@@ -1,0 +1,19 @@
+---
+title: "UKB Usage"
+author: "Niyati Jain"
+date: '2022-07-27'
+output: html_document
+---
+
+**1. Phenotype data is classified as "dataset"**
+
++ To look at data based on different filters, you can add "Add tiles". Example: Looking at counts of female versus male participants
+
+
+**2. Command line**
+
++ Install dxpy in conda environment
++ dx login to access platform
+
+**3. Join the DNANexus community** 
+
