@@ -5,7 +5,7 @@ date: '2022-07-27'
 output: html_document
 ---
 
-Note: this can be done command line as well using the installed dx toolkit 
+Note: this can be done using command line (dx toolkit) 
 
 1. Build Cohort 
 
@@ -13,7 +13,7 @@ Note: this can be done command line as well using the installed dx toolkit
       + DNANexus Cohort Browser 
             - Add filter (based on variable of interest)
             - Add columns for covariates (sex, self reported ancestry)
-            - Save ccohort
+            - Save cohort
       + Jupyter Notebook (SPARK)
             
 2. Phenotype input file QC

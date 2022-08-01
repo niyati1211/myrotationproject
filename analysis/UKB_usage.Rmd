@@ -19,12 +19,12 @@ output: html_document
 
 **4. Useful Links**
 
-https://dnanexus.gitbook.io/uk-biobank-rap/science-corner/gwas-ex?q=gwas
+https://dnanexus.gitbook.io/uk-biobank-rap/science-corner/gwas-ex?q=gwas  --> tutorial on how to run a GWAS analysis
 
-https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/using-spark-to-analyze-tabular-data#notebook-starting-code
+https://dnanexus.gitbook.io/uk-biobank-rap/working-on-the-research-analysis-platform/using-spark-to-analyze-tabular-data#notebook-starting-code  --> tutorial on how to use Jupyter Notebook to analyze and visual tabular data
 
-https://www.youtube.com/watch?v=YIPdhf3qbQA&t=2875s&ab_channel=DNAnexus
+https://www.youtube.com/watch?v=YIPdhf3qbQA&t=2875s&ab_channel=DNAnexus --> how to use Jupyter Notebook 
 
-https://www.youtube.com/watch?v=762PVlyZJ-U&ab_channel=DNAnexus
+https://www.youtube.com/watch?v=762PVlyZJ-U&ab_channel=DNAnexus --> how to run GWAS (Regenie)  
 
-https://www.youtube.com/watch?v=_WKy5YHnPns&ab_channel=DNAnexus
+https://www.youtube.com/watch?v=_WKy5YHnPns&ab_channel=DNAnexus --> Overview of RAP platform
